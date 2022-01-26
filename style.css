@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.contenedorFlex{
+  width: 500px;
+  height: 500px;
+  border: solid 1px red;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+}
+.itemFlex{
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+}
+.itemFlexDos{
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+}
+
+
+ul{
+  display: flex;
+  flex-flow: row wrap;
+  width: 80%;
+  margin-top: 5%;
+
+  justify-content: space-evenly;
+
+}
+li{
+  list-style: none;
+}
+
+nav{
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+}
+
+header{
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+h1{
+  width: fit-content;
+  align-self: center;
+}
